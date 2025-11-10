@@ -75,7 +75,7 @@ export default function CartScreen() {
       <ScrollView
         className="flex-1 px-4"
         showsVerticalScrollIndicator={false}
-        contentContainerStyle={{ paddingBottom: 20 }}
+        contentContainerStyle={{ paddingBottom: 120 }}
       >
         {/* Cart Items */}
         {cartItems.length > 0 ? (

@@ -100,7 +100,7 @@ export default function HomeScreen() {
           ListHeaderComponent={ListHeaderComponent}
           contentContainerStyle={{
             padding: 16,
-            paddingBottom: 32,
+            paddingBottom: 120,
           }}
           columnWrapperStyle={{ gap: 8 }}
           showsVerticalScrollIndicator={true}
