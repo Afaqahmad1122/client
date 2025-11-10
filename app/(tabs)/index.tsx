@@ -1,12 +1,12 @@
 import React, { useState, useMemo } from "react";
 import { View, FlatList, Text, RefreshControl } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { SearchBar } from "../components/ui/SearchBar";
-import { CategoryFilter } from "../components/ui/CategoryFilter";
-import { ProductCard } from "../components/ui/ProductCard";
-import { EmptyState } from "../components/ui/EmptyState";
-import { categories, mockProducts } from "../data/mockData";
-import { Product } from "../types";
+import { SearchBar } from "../../components/ui/SearchBar";
+import { CategoryFilter } from "../../components/ui/CategoryFilter";
+import { ProductCard } from "../../components/ui/ProductCard";
+import { EmptyState } from "../../components/ui/EmptyState";
+import { categories, mockProducts } from "../../data/mockData";
+import { Product } from "../../types";
 
 export default function HomeScreen() {
   const [searchQuery, setSearchQuery] = useState("");
