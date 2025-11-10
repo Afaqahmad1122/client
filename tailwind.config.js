@@ -19,6 +19,10 @@ module.exports = {
         success: "#10b981",
         error: "#ef4444",
         warning: "#f59e0b",
+        green: {
+          light: "#e8f5e9", // Light green background
+          accent: "#81c784", // Brighter green for active tab states
+        },
         gray: {
           50: "#f9fafb",
           100: "#f3f4f6",
